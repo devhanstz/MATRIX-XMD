@@ -247,7 +247,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
                         newsletterJid: '120363358310754973@newsletter',
-                        newsletterName: 'sʜᴀʙᴀɴ sᴏʙx ᴍᴅ',
+                        newsletterName: 'Mᴀᴛʀɪx-Xᴍᴅ',
                         serverMessageId: 143
                     }
                 }
@@ -257,7 +257,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 
         // Send audio
         await conn.sendMessage(from, {
-            audio: { url: 'https://github.com/mrfrank-ofc/SUBZERO-MD-DATABASE/raw/refs/heads/main/audios/subzero-menu.mp3' },
+            audio: { url: 'https://files.catbox.moe/l7e2ni.mp3' },
             mimetype: 'audio/mp4',
             ptt: true
         }, { quoted: mek });
